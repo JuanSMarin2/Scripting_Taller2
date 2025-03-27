@@ -43,4 +43,7 @@ public class ColorManager : MonoBehaviour
 public interface IColorObserver
 {
     void OnColorChanged(Color newColor);
+    public void Suscribe();
+    public void UnSuscribe();
+
 }
