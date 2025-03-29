@@ -16,13 +16,13 @@ public class ColorChanger : MonoBehaviour, IColorObserver
         rawImage = GetComponent<RawImage>();
     }
 
-    public void Suscribe()
+    public void Subscribe()
     {
         ColorManager.Instance.OnColorChanged += OnColorChanged;
         button.gameObject.SetActive(false);
     }
 
-    public void UnSuscribe()
+    public void UnSubscribe()
     {
         ColorManager.Instance.OnColorChanged -= OnColorChanged;
         button.gameObject.SetActive(true);
