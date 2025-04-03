@@ -70,4 +70,5 @@ Puede usarse para administrar recursos críticos (como un pool de conexiones o u
 Control de acceso a dispositivos o servicios del sistema:
 Por ejemplo, en aplicaciones que requieren coordinación centralizada para interactuar con hardware o servicios externos, un Singleton garantiza que se mantenga un único punto de control.
 
-
+### ¿Cómo funciona el patrón Observer y en qué situaciones es útil?
+es un patrón de diseño de comportamiento que define una relación de uno a muchos entre objetos. Esto significa que cuando un objeto (llamado sujeto o observable) cambia su estado, notifica automáticamente a todos los objetos que dependen de él (los observadores), permitiendo que se actualicen de forma coherente.
