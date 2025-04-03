@@ -1,6 +1,7 @@
 ## Presentacion
 [Presentación Canvas](https://www.canva.com/design/DAGjh6u3p48/rKI2W-ZC5spZiHLZlqg7UQ/edit?utm_content=DAGjh6u3p48&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ## Preguntas Teoricas
+### ¿Qué son los principios SOLID?
 Los principios SOLID son un conjunto de cinco directrices que ayudan a diseñar sistemas orientados a objetos robustos, mantenibles y escalables. Cada principio aborda un aspecto distinto del diseño, promoviendo la calidad y la flexibilidad del software. A continuación, se describen brevemente:
 
 S - Single Responsibility Principle (Principio de Responsabilidad Única):
@@ -25,3 +26,15 @@ Extensibilidad: Permiten añadir nuevas funcionalidades sin modificar el código
 Reutilización: El desacoplamiento y la separación de responsabilidades favorecen la reutilización de componentes en diferentes contextos.
 
 Facilidad de prueba: Un código bien estructurado y con dependencias invertidas es más fácil de aislar y probar mediante técnicas de pruebas unitarias.
+
+## ¿Cómo funciona el patrón Observer?
+El patrón Observer es un patrón de diseño de comportamiento que establece una relación de uno a muchos entre objetos. Cuando un objeto (el Sujeto, o Subject) cambia de estado, notifica automáticamente a todos los objetos que dependen de él (Observadores, o Observers).
+
+!. El Sujeto mantiene una lista de observadores y provee métodos para añadir, eliminar y notificar a los observadores.
+####
+2. Los Observadores implementan una interfaz que define un método para recibir actualizaciones del Sujeto.
+####
+3. Cuando el estado del Sujeto cambia, este notifica a todos los Observadores, generalmente llamando a su método de actualización.
+ ####
+ ## ¿En qué situaciones es útil?
+Es útil cuando se necesita que varios objetos reaccionen automáticamente a cambios en otro objeto sin acoplarlos directamente. Se aplica en situaciones donde el estado de un objeto afecta a muchos otros, permitiendo una comunicación eficiente sin dependencias rígidas.
