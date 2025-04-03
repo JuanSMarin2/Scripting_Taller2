@@ -72,3 +72,16 @@ Por ejemplo, en aplicaciones que requieren coordinación centralizada para inter
 
 ### ¿Cómo funciona el patrón Observer y en qué situaciones es útil?
 es un patrón de diseño de comportamiento que define una relación de uno a muchos entre objetos. Esto significa que cuando un objeto (llamado sujeto o observable) cambia su estado, notifica automáticamente a todos los objetos que dependen de él (los observadores), permitiendo que se actualicen de forma coherente.
+
+### Como funciona
+Sujeto u Observable:
+Este objeto mantiene una lista de observadores que están interesados en recibir notificaciones sobre los cambios de estado. Suele exponer métodos para suscribir o remover observadores.
+
+Observadores:
+Son los objetos que desean ser informados cuando se produce un cambio en el sujeto. Cada observador implementa una interfaz que define el método de notificación.
+
+Notificación:
+Cuando el sujeto experimenta un cambio en su estado, itera a través de su lista de observadores y llama a su método de notificación, generalmente pasando información relevante del cambio.
+
+Desacoplamiento:
+Los sujetos y observadores están desacoplados, lo que significa que el sujeto no necesita conocer detalles sobre cómo los observadores usan la información, y los observadores no dependen directamente del sujeto, facilitando el mantenimiento y la extensión del código.
