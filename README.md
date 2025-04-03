@@ -1,7 +1,7 @@
 ## Presentacion
 [Presentación Canvas](https://www.canva.com/design/DAGjh6u3p48/rKI2W-ZC5spZiHLZlqg7UQ/edit?utm_content=DAGjh6u3p48&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ## Preguntas Teoricas
-### ¿Qué son los principios SOLID?
+## ¿Qué son los principios SOLID y cómo contribuyen a un buen diseño orientado a objetos?
 Los principios SOLID son un conjunto de cinco directrices que ayudan a diseñar sistemas orientados a objetos robustos, mantenibles y escalables. Cada principio aborda un aspecto distinto del diseño, promoviendo la calidad y la flexibilidad del software. A continuación, se describen brevemente:
 
 S - Single Responsibility Principle (Principio de Responsabilidad Única):
@@ -18,7 +18,7 @@ Es preferible tener varias interfaces específicas y pequeñas en lugar de una �
 D - Dependency Inversion Principle (Principio de Inversión de Dependencias):
 Las clases de alto nivel no deben depender directamente de clases de bajo nivel; ambas deben depender de abstracciones (por ejemplo, interfaces o clases abstractas). Esto favorece la modularidad y facilita el cambio de implementaciones sin afectar al sistema en general.
 
-## ¿cómo contribuyen a un buen diseño orientado a objetos?
+### ¿cómo contribuyen a un buen diseño orientado a objetos?
 Mantenibilidad: Al tener responsabilidades claramente definidas, el código se vuelve más fácil de entender y modificar.
 
 Extensibilidad: Permiten añadir nuevas funcionalidades sin modificar el código existente, reduciendo el riesgo de errores.
@@ -38,5 +38,36 @@ El patrón Observer es un patrón de diseño de comportamiento que establece una
  ####
  ## ¿En qué situaciones es útil?
 Es útil cuando se necesita que varios objetos reaccionen automáticamente a cambios en otro objeto sin acoplarlos directamente. Se aplica en situaciones donde el estado de un objeto afecta a muchos otros, permitiendo una comunicación eficiente sin dependencias rígidas.
+
+## ¿Qué son los principios SOLID y cómo contribuyen a un buen diseño orientado a objetos?
+El patrón Singleton garantiza que una clase tenga una única instancia en todo el programa y proporciona un punto global de acceso a ella. Para lograr esto, sigue estos pasos clave:
+
+Almacena una referencia estática a la única instancia:
+Se usa una variable de clase (o atributo estático) para guardar la instancia única.
+
+Controla la creación de instancias:
+Se impide la creación directa de objetos restringiendo el constructor, generalmente haciéndolo privado (en lenguajes como Java o C#) o utilizando una verificación en Python.
+
+Proporciona un método de acceso global:
+Se define un método estático (o de clase) que devuelve siempre la misma instancia, creándola solo si no existe.
+
+Evita problemas en entornos multihilo:
+Se usan bloqueos o enfoques de inicialización segura para evitar que múltiples hilos creen instancias duplicadas.
+
+### posibles usos 
+Registro de logs (Logging):
+Un Singleton puede centralizar el registro de mensajes, evitando que se creen múltiples instancias que intenten escribir simultáneamente en el mismo archivo o medio.
+
+Gestión de la configuración:
+Permite mantener una única instancia de la configuración de la aplicación, garantizando que todos los componentes accedan a la misma información.
+
+Conexión a bases de datos:
+Ayuda a administrar las conexiones a la base de datos para evitar la creación innecesaria de múltiples conexiones, lo que puede ser costoso en términos de recursos.
+
+Gestión de recursos compartidos:
+Puede usarse para administrar recursos críticos (como un pool de conexiones o un cache) que deben ser accedidos de manera coordinada en toda la aplicación.
+
+Control de acceso a dispositivos o servicios del sistema:
+Por ejemplo, en aplicaciones que requieren coordinación centralizada para interactuar con hardware o servicios externos, un Singleton garantiza que se mantenga un único punto de control.
 
 
