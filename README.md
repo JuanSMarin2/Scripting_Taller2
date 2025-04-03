@@ -85,3 +85,16 @@ Cuando el sujeto experimenta un cambio en su estado, itera a través de su lista
 
 Desacoplamiento:
 Los sujetos y observadores están desacoplados, lo que significa que el sujeto no necesita conocer detalles sobre cómo los observadores usan la información, y los observadores no dependen directamente del sujeto, facilitando el mantenimiento y la extensión del código.
+
+### Situaciones en las que es Útil
+Interfaces Gráficas de Usuario (GUI):
+En aplicaciones con interfaces de usuario, por ejemplo, el patrón Observer permite que las vistas se actualicen automáticamente cuando cambia el modelo, como en la arquitectura Model-View-Controller (MVC).
+
+Sistemas de Eventos:
+Es ideal para implementar sistemas de notificación o de eventos, donde múltiples componentes deben reaccionar a un cambio en un estado sin un acoplamiento fuerte entre ellos.
+
+Sistemas Distribuidos:
+Puede utilizarse para sincronizar estados entre diferentes componentes o servicios, notificándolos de cambios sin necesidad de que cada componente consulte constantemente el estado.
+
+Actualizaciones en Tiempo Real:
+En aplicaciones que requieren actualizaciones en tiempo real (por ejemplo, aplicaciones de mensajería o monitorización), el patrón Observer facilita que todos los componentes interesados se mantengan al día.
