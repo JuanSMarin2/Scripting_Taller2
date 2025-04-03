@@ -14,3 +14,5 @@ Los objetos de una clase derivada deben poder sustituir a los objetos de la clas
 
 I - Interface Segregation Principle (Principio de Segregación de Interfaces):
 Es preferible tener varias interfaces específicas y pequeñas en lugar de una única interfaz general. De esta forma, las clases sólo implementan los métodos que realmente necesitan, lo que mejora la cohesión y reduce el acoplamiento.
+D - Dependency Inversion Principle (Principio de Inversión de Dependencias):
+Las clases de alto nivel no deben depender directamente de clases de bajo nivel; ambas deben depender de abstracciones (por ejemplo, interfaces o clases abstractas). Esto favorece la modularidad y facilita el cambio de implementaciones sin afectar al sistema en general.
