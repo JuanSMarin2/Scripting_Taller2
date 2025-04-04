@@ -39,4 +39,7 @@ El patrón Observer es un patrón de diseño de comportamiento que establece una
 #### ¿En qué situaciones es útil?
 Es útil cuando se necesita que varios objetos reaccionen automáticamente a cambios en otro objeto sin acoplarlos directamente. Se aplica en situaciones donde el estado de un objeto afecta a muchos otros, permitiendo una comunicación eficiente sin dependencias rígidas.
 
-
+### ¿Qué es un antipatrón? explique por medio de dos ejemplos.
+Es el contrario de las diferentes practicas que se han visto anteriormente en este documento, por ejmeplo con S.O.L.I.D. Por lo cual esta llega a ser una practica que se ve bien al inicio pero dentro de la pratica llega a ser poco efectivo o productivos, por ejemplo:
+- Representar todo en un solo código, donde las variables, la lógica y los objetos se usen en un solo bloque extenso, puede generar problemas a largo plazo, causando descontrol en el código. Además, esto puede resultar en un código exageradamente largo y poco organizado
+- Generar códigos extremadamente largos, donde las funciones o clases se entrecrucen de manera desordenada, dificulta la comprensión del código por parte del programador. Además, copiar y pegar fragmentos de código que funcionan en lugar de reutilizarlos adecuadamente para crear clases u objetos puede parecer una solución "fácil" a simple vista, pero a largo plazo complica el mantenimiento y genera problemas de escalabilidad.
