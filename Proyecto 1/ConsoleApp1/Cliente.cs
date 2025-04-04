@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Cliente
+    public class Cliente : IObservador
     {
+        private string nombre;
+
+        public Cliente(string nombre = "Cliente Random")
+        {
+            this.nombre = nombre;
+        }
+
+        public void Actualizar(Juego juego)
+        {
+            Console.WriteLine($"[Notificación para {nombre}] El juego '{juego.Nombre}' ahora tiene {juego.ObtenerStock()} unidades en stock.");
+        }
     }
 }
