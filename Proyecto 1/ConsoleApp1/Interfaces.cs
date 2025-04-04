@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Interfaces
+    public interface IObservador
     {
+        void Actualizar(Juego juego);
     }
+
+    public interface ISujeto
+    {
+        void AgregarObservador(IObservador observador);
+        void QuitarObservador(IObservador observador);
+        void Notificar();
+    }
+
 }
