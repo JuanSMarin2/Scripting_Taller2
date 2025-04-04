@@ -8,7 +8,10 @@ namespace Aplicacion_Patrones
 {
     public class EspadaDanoExtra : EspadaDecoradora
     {
-        public EspadaDanoExtra(IEspada e) : base(e) { }
+        public EspadaDanoExtra(IEspada e) : base(e) 
+        {
+
+        }
 
         public override void Mostrar()
         {
@@ -16,7 +19,10 @@ namespace Aplicacion_Patrones
             Console.WriteLine("Encantamiento de fuerza: +2 de daño.");
         }
 
-        public override int ObtenerDano() => espada.ObtenerDano() + 2;
+        public override int ObtenerDano()
+        {
+            return espada.ObtenerDano() + 4;
+        }
     }
 
 }

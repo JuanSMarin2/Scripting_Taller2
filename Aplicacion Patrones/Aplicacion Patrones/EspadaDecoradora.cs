@@ -15,8 +15,14 @@ namespace Aplicacion_Patrones
             espada = e;
         }
 
-        public virtual void Mostrar() => espada.Mostrar();
-        public virtual int ObtenerDano() => espada.ObtenerDano();
+        public virtual void Mostrar()
+        {
+            espada.Mostrar();
+        }
+        public virtual int ObtenerDano()
+        {
+            return espada.ObtenerDano();
+        }
     }
 
 }

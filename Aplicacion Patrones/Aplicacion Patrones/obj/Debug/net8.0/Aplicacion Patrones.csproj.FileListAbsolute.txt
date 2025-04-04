@@ -1,0 +1,15 @@
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\bin\Debug\net8.0\Aplicacion Patrones.exe
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\bin\Debug\net8.0\Aplicacion Patrones.deps.json
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\bin\Debug\net8.0\Aplicacion Patrones.runtimeconfig.json
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\bin\Debug\net8.0\Aplicacion Patrones.dll
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\bin\Debug\net8.0\Aplicacion Patrones.pdb
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\obj\Debug\net8.0\Aplicacion Patrones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\obj\Debug\net8.0\Aplicacion Patrones.AssemblyInfoInputs.cache
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\obj\Debug\net8.0\Aplicacion Patrones.AssemblyInfo.cs
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\obj\Debug\net8.0\Aplicacion Patrones.csproj.CoreCompileInputs.cache
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\obj\Debug\net8.0\Aplicacion Patrones.sourcelink.json
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\obj\Debug\net8.0\Aplicacion Patrones.dll
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\obj\Debug\net8.0\refint\Aplicacion Patrones.dll
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\obj\Debug\net8.0\Aplicacion Patrones.pdb
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\obj\Debug\net8.0\Aplicacion Patrones.genruntimeconfig.cache
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Aplicacion Patrones\Aplicacion Patrones\obj\Debug\net8.0\ref\Aplicacion Patrones.dll

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\Aplicacion Patrones\\Aplicacion Patrones\\Aplicacion Patrones.csproj",
+      "projectUniqueName": "C:\\Archivos\\Taler 2 Scripting\\Scripting_Taller2\\Aplicacion Patrones\\Aplicacion Patrones\\Aplicacion Patrones.csproj",
       "projectName": "Aplicacion Patrones",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\Aplicacion Patrones\\Aplicacion Patrones\\Aplicacion Patrones.csproj",
+      "projectPath": "C:\\Archivos\\Taler 2 Scripting\\Scripting_Taller2\\Aplicacion Patrones\\Aplicacion Patrones\\Aplicacion Patrones.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\Aplicacion Patrones\\Aplicacion Patrones\\obj\\",
+      "outputPath": "C:\\Archivos\\Taler 2 Scripting\\Scripting_Taller2\\Aplicacion Patrones\\Aplicacion Patrones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

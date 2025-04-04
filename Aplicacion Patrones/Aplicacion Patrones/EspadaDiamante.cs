@@ -8,7 +8,10 @@ namespace Aplicacion_Patrones
 {
     public class EspadaDiamante : IEspada
     {
-        public int ObtenerDano() => 7;
+        public int ObtenerDano()
+        {
+            return 7;
+        }
 
         public void Mostrar()
         {

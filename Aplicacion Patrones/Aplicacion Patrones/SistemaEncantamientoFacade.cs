@@ -10,7 +10,7 @@ namespace Aplicacion_Patrones
     {
         public IEspada Encantar(IEspada espadaOriginal)
         {
-            Console.WriteLine("\n✨ Iniciando proceso de encantamiento...");
+            Console.WriteLine("\nIniciando proceso de encantamiento...");
             IEspada espadaConDano = new EspadaDanoExtra(espadaOriginal);
             IEspada espadaConFuego = new EspadaFuego(espadaConDano);
             return espadaConFuego;

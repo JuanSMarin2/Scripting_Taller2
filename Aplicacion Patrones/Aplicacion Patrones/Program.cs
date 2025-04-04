@@ -16,7 +16,7 @@ class Program
         SistemaEncantamientoFacade sistema = new SistemaEncantamientoFacade();
         IEspada espadaEncantada = sistema.Encantar(miEspada);
 
-        Console.WriteLine("\n🛠️ Espada luego del encantamiento:");
+        Console.WriteLine("\n Espada luego del encantamiento:");
         espadaEncantada.Mostrar();
         Console.WriteLine("Daño total: " + espadaEncantada.ObtenerDano());
     }
