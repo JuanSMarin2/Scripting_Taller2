@@ -18,6 +18,34 @@ Es preferible tener varias interfaces específicas y pequeñas en lugar de una �
 D - Dependency Inversion Principle (Principio de Inversión de Dependencias):
 Las clases de alto nivel no deben depender directamente de clases de bajo nivel; ambas deben depender de abstracciones (por ejemplo, interfaces o clases abstractas). Esto favorece la modularidad y facilita el cambio de implementaciones sin afectar al sistema en general.
 
+### Explica cómo el patrón Singleton asegura que solo haya una instancia de una clase y cuáles son sus posibles usos.
+Constructor privado o protegido:
+La clase define un constructor privado (o protegido) para que ninguna otra clase pueda crear una instancia directamente con el operador new o mediante llamadas al constructor.
+
+Instancia estática interna:
+Se declara una variable estática que contendrá la única instancia de la clase. Esta variable es común para todas las instancias y, al ser privada, impide que se modifique desde fuera de la clase.
+
+Método de acceso público:
+Se implementa un método público (por lo general llamado getInstance() o similar) que devuelve la instancia única. Este método comprueba si la instancia ya existe; si no es así, la crea. De este modo, cada vez que se solicita la instancia, se devuelve la misma.
+
+Sincronización (en entornos multihilo):
+En aplicaciones concurrentes, se deben tomar precauciones adicionales para evitar la creación de múltiples instancias en diferentes hilos. Esto se logra usando mecanismos de sincronización, como el bloqueo (mutex) o el uso de inicialización temprana (eager initialization).
+
+Posibles usos del patrón Singleton
+Registro de logs (Logging):
+Permite centralizar la escritura de logs en una única instancia, lo que facilita el seguimiento de eventos y errores en la aplicación.
+
+Gestión de la configuración:
+Un Singleton puede almacenar la configuración de la aplicación (parámetros, ajustes, etc.) de forma global, asegurando que todas las partes de la aplicación accedan a los mismos datos.
+
+Pool de conexiones:
+En aplicaciones que requieren acceso a bases de datos u otros recursos, un Singleton puede gestionar un pool de conexiones para optimizar el uso de recursos y garantizar la consistencia.
+
+Control de acceso a recursos compartidos:
+Se utiliza para gestionar el acceso a recursos críticos o compartidos, asegurando que solo un proceso o hilo pueda modificar el estado del recurso a la vez.
+
+Interfaces de comunicación:
+En aplicaciones que interactúan con sistemas externos (por ejemplo, un servicio web o un API), un Singleton puede actuar como punto central de comunicación, gestionando la conexión y evitando múltiples instancias innecesarias.
 #### ¿Cómo contribuyen a un buen diseño orientado a objetos?
 Mantenibilidad: Al tener responsabilidades claramente definidas, el código se vuelve más fácil de entender y modificar.
 
