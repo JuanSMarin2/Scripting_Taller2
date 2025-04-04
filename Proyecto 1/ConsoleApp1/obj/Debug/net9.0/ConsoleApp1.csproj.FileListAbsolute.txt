@@ -12,3 +12,18 @@ C:\Users\ADMIN\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\refint\ConsoleAp
 C:\Users\ADMIN\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
 C:\Users\ADMIN\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.exe
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.deps.json
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.runtimeconfig.json
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.dll
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.pdb
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfo.cs
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.sourcelink.json
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.dll
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\obj\Debug\net9.0\refint\ConsoleApp1.dll
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
+C:\Archivos\Taler 2 Scripting\Scripting_Taller2\Proyecto 1\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
