@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\archivos\\taler 2 scripting\\scripting_taller2\\proyecto 1\\consoleapp1\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\archivos\\taler 2 scripting\\scripting_taller2\\proyecto 1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\archivos\\taler 2 scripting\\scripting_taller2\\proyecto 1\\consoleapp1\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\archivos\\taler 2 scripting\\scripting_taller2\\proyecto 1\\consoleapp1\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\archivos\\taler 2 scripting\\scripting_taller2\\proyecto 1\\consoleapp1\\inventariojuegos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\inventariojuegos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\archivos\\taler 2 scripting\\scripting_taller2\\proyecto 1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\archivos\\taler 2 scripting\\scripting_taller2\\proyecto 1\\consoleapp1\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A03E0419-5D6B-4B26-9C31-0A8552191A8F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\archivos\\taler 2 scripting\\scripting_taller2\\proyecto 1\\consoleapp1\\consoleapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -44,9 +44,10 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\InventarioJuegos.cs",
               "ToolTip": "C:\\Archivos\\Taler 2 Scripting\\Scripting_Taller2\\Proyecto 1\\ConsoleApp1\\InventarioJuegos.cs",
               "RelativeToolTip": "ConsoleApp1\\InventarioJuegos.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:08:15.804Z"
+              "WhenOpened": "2025-04-04T02:08:15.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -63,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Juego.cs",
               "DocumentMoniker": "C:\\Archivos\\Taler 2 Scripting\\Scripting_Taller2\\Proyecto 1\\ConsoleApp1\\Juego.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Juego.cs",
@@ -76,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Interfaces.cs",
               "DocumentMoniker": "C:\\Archivos\\Taler 2 Scripting\\Scripting_Taller2\\Proyecto 1\\ConsoleApp1\\Interfaces.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Interfaces.cs",
@@ -84,20 +85,20 @@
               "RelativeToolTip": "ConsoleApp1\\Interfaces.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:07:32.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T02:07:32.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Archivos\\Taler 2 Scripting\\Scripting_Taller2\\Proyecto 1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Archivos\\Taler 2 Scripting\\Scripting_Taller2\\Proyecto 1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:01:54.47Z"
+              "WhenOpened": "2025-04-04T02:01:54.47Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
