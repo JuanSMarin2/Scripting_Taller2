@@ -1,28 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace ConsoleApp1
+public class InventarioJuegos
 {
-    public sealed class InventarioJuegos
+    private static InventarioJuegos instancia;
+    private List<Juego> juegos;
+
+    private InventarioJuegos()
     {
-        private static readonly InventarioJuegos instancia = new InventarioJuegos();
-        private List<Juego> juegos = new List<Juego>();
+        juegos = new List<Juego>();
+    }
 
-        private InventarioJuegos() { }
-
-        public static InventarioJuegos Instancia => instancia;
-
-        public void AgregarJuego(Juego juego)
+    public static InventarioJuegos Instancia
+    {
+        get
         {
-            juegos.Add(juego);
+            if (instancia == null)
+            {
+                instancia = new InventarioJuegos();
+            }
+            return instancia;
         }
+    }
 
-        public IEnumerable<Juego> ObtenerJuegos()
-        {
-            return juegos;
-        }
+    public void AgregarJuego(Juego juego)
+    {
+        juegos.Add(juego);
+    }
+
+    public List<Juego> ObtenerJuegos()
+    {
+        return juegos;
     }
 }

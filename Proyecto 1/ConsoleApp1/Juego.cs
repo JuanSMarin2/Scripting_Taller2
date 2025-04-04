@@ -1,55 +1,49 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ConsoleApp1;
 
-namespace ConsoleApp1
+public class Juego
 {
-    public class Juego : ISujeto
+    public string Nombre { get; private set; }
+    private int stock;
+    private List<IObservador> observadores;
+
+    public Juego(string nombre, int stockInicial)
     {
-        public string Nombre { get; private set; }
-        private int stock;
-        private List<IObservador> observadores = new List<IObservador>();
+        Nombre = nombre;
+        stock = stockInicial;
+        observadores = new List<IObservador>();
+    }
 
-        public Juego(string nombre, int stockInicial)
+    public void Vender(int cantidad)
+    {
+        if (cantidad <= stock)
         {
-            Nombre = nombre;
-            stock = stockInicial;
+            stock -= cantidad;
+            Console.WriteLine("Venta realizada: " + cantidad + " unidades de " + Nombre + ". Stock actual: " + stock);
+            Notificar();
         }
-
-        public void Vender(int cantidad)
+        else
         {
-            if (stock >= cantidad)
-            {
-                stock -= cantidad;
-                Console.WriteLine($"Venta realizada: {cantidad} unidades de {Nombre}. Stock actual: {stock}");
-                Notificar();
-            }
-            else
-            {
-                Console.WriteLine($"No hay suficiente stock para vender {cantidad} unidades de {Nombre}. Stock disponible: {stock}");
-            }
+            Console.WriteLine("No hay suficiente stock para vender " + cantidad + " unidades de " + Nombre + ". Stock disponible: " + stock);
         }
+    }
 
-        public void AgregarObservador(IObservador observador)
+    public void AgregarObservador(IObservador observador)
+    {
+        observadores.Add(observador);
+    }
+
+    private void Notificar()
+    {
+        foreach (var observador in observadores)
         {
-            observadores.Add(observador);
+            observador.Actualizar(this);
         }
+    }
 
-        public void QuitarObservador(IObservador observador)
-        {
-            observadores.Remove(observador);
-        }
-
-        public void Notificar()
-        {
-            foreach (var observador in observadores)
-            {
-                observador.Actualizar(this);
-            }
-        }
-
-        public int ObtenerStock() => stock;
+    public int ObtenerStock()
+    {
+        return stock;
     }
 }
