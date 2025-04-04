@@ -44,30 +44,5 @@ Es el contrario de las diferentes practicas que se han visto anteriormente en es
 - Representar todo en un solo código, donde las variables, la lógica y los objetos se usen en un solo bloque extenso, puede generar problemas a largo plazo, causando descontrol en el código. Además, esto puede resultar en un código exageradamente largo y poco organizado
 - Generar códigos extremadamente largos, donde las funciones o clases se entrecrucen de manera desordenada, dificulta la comprensión del código por parte del programador. Además, copiar y pegar fragmentos de código que funcionan en lugar de reutilizarlos adecuadamente para crear clases u objetos puede parecer una solución "fácil" a simple vista, pero a largo plazo complica el mantenimiento y genera problemas de escalabilidad.
 
-- ## ¿Qué es un antipatrón? explique por medio de dos ejemplos.
-- Un antipatrón es una solución comúnmente utilizada para resolver un problema de diseño o programación, pero que en realidad resulta ineficiente o contraproducente a largo plazo. Aunque puede parecer una buena idea en el momento, los antipatrones generan más problemas de los que resuelven: dificultan el mantenimiento, reducen la escalabilidad y aumentan el acoplamiento o la complejidad innecesaria.
 
-- Ejemplo 1: God Object (Objeto Dios)
-¿Qué es?
-Un "God Object" es una clase que concentra demasiada responsabilidad, haciendo demasiado por sí sola. Viola el principio de responsabilidad única (SRP del principio SOLID) y termina siendo un cuello de botella del sistema.
-
-¿Por qué es un problema?
-
-Difícil de mantener y probar.
-
-Cualquier cambio puede romper todo.
-
-Rompe el encapsulamiento.
-
- Ejemplo 2: Spaghetti Code (Código Espagueti)
-¿Qué es?
-Código muy desorganizado, sin estructura clara, con múltiples dependencias cruzadas, sin modularidad. Suele ocurrir cuando el código se escribe sin planificación o sin aplicar principios de diseño.
-
-¿Por qué es un problema?
-
-Difícil de leer, entender o modificar.
-
-Altamente propenso a errores.
-
-Imposible de reutilizar.
 
