@@ -1,0 +1,14 @@
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\obj\Debug\net7.0\Ejercicio1C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\obj\Debug\net7.0\Ejercicio1C#.AssemblyInfoInputs.cache
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\obj\Debug\net7.0\Ejercicio1C#.AssemblyInfo.cs
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\obj\Debug\net7.0\Ejercicio1C#.csproj.CoreCompileInputs.cache
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\bin\Debug\net7.0\Ejercicio1C#.exe
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\bin\Debug\net7.0\Ejercicio1C#.deps.json
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\bin\Debug\net7.0\Ejercicio1C#.runtimeconfig.json
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\bin\Debug\net7.0\Ejercicio1C#.dll
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\bin\Debug\net7.0\Ejercicio1C#.pdb
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\obj\Debug\net7.0\Ejercicio1C#.dll
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\obj\Debug\net7.0\refint\Ejercicio1C#.dll
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\obj\Debug\net7.0\Ejercicio1C#.pdb
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\obj\Debug\net7.0\Ejercicio1C#.genruntimeconfig.cache
+D:\Scripting\Taller_2_Scripting\Ejercicio\Ejercicio1C#\Ejercicio1C#\obj\Debug\net7.0\ref\Ejercicio1C#.dll
